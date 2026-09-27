@@ -1,0 +1,44 @@
+
+=== TRAIN ===
+CSV: /home/psivakumar/thesis/data/iu_xray/iu_xray_pairs_train.csv
+Rows: 5918
+Columns: ['uid', 'filename', 'projection', 'image_path', 'report_text']
+Rows after dropna: 5918
+[0] image exists=True  path=/home/psivakumar/thesis/data/iu_xray/images/images_normalized/597_IM-2189-2001.dcm.png
+[1] image exists=True  path=/home/psivakumar/thesis/data/iu_xray/images/images_normalized/3671_IM-1827-1001.dcm.png
+[2] image exists=True  path=/home/psivakumar/thesis/data/iu_xray/images/images_normalized/3931_IM-2003-3001.dcm.png
+[3] image exists=True  path=/home/psivakumar/thesis/data/iu_xray/images/images_normalized/3813_IM-1922-1001.dcm.png
+[4] image exists=True  path=/home/psivakumar/thesis/data/iu_xray/images/images_normalized/1052_IM-0040-1001.dcm.png
+
+Sample report (first 400 chars):
+There are XXXX bilateral lower lobe opacities. No pleural effusion. No pneumothorax is identified. Heart size and mediastinal contour are within normal limits. There is lucency beneath the diaphragm, consistent with pneumoperitoneum. Cholecystectomy clips are noted in the right upper quadrant. IMPRESSION: 1. XXXX bilateral lower lobe opacities. The appearance XXXX subsegmental atelectasis. 2. Pneu
+
+=== VAL ===
+CSV: /home/psivakumar/thesis/data/iu_xray/iu_xray_pairs_val.csv
+Rows: 740
+Columns: ['uid', 'filename', 'projection', 'image_path', 'report_text']
+Rows after dropna: 740
+[0] image exists=True  path=/home/psivakumar/thesis/data/iu_xray/images/images_normalized/3465_IM-1683-1001.dcm.png
+[1] image exists=True  path=/home/psivakumar/thesis/data/iu_xray/images/images_normalized/427_IM-2070-2001.dcm.png
+[2] image exists=True  path=/home/psivakumar/thesis/data/iu_xray/images/images_normalized/2291_IM-0874-2001.dcm.png
+[3] image exists=True  path=/home/psivakumar/thesis/data/iu_xray/images/images_normalized/2701_IM-1169-1002.dcm.png
+[4] image exists=True  path=/home/psivakumar/thesis/data/iu_xray/images/images_normalized/1146_IM-0098-2001.dcm.png
+
+Sample report (first 400 chars):
+Lungs are clear. No pleural effusions or pneumothoraces. Heart and mediastinum of normal size and contour. IMPRESSION: Clear lungs.
+
+=== TEST ===
+CSV: /home/psivakumar/thesis/data/iu_xray/iu_xray_pairs_test.csv
+Rows: 740
+Columns: ['uid', 'filename', 'projection', 'image_path', 'report_text']
+Rows after dropna: 740
+[0] image exists=True  path=/home/psivakumar/thesis/data/iu_xray/images/images_normalized/551_IM-2154-2001.dcm.png
+[1] image exists=True  path=/home/psivakumar/thesis/data/iu_xray/images/images_normalized/1863_IM-0558-3001.dcm.png
+[2] image exists=True  path=/home/psivakumar/thesis/data/iu_xray/images/images_normalized/1623_IM-0405-1001.dcm.png
+[3] image exists=True  path=/home/psivakumar/thesis/data/iu_xray/images/images_normalized/1594_IM-0385-2001.dcm.png
+[4] image exists=True  path=/home/psivakumar/thesis/data/iu_xray/images/images_normalized/2730_IM-1189-1001.dcm.png
+
+Sample report (first 400 chars):
+Lungs are hyperinflated with flattening of the diaphragms and increased AP chest diameter, compatible with emphysema. There is no evidence of focal infiltrate, pneumothorax, pleural effusion, or identified mass lesion. There is normal cardiomediastinal contours. IMPRESSION: 1. No acute cardiopulmonary abnormality, findings compatible with emphysema.
+
+✅ Sanity check passed.
